@@ -11,7 +11,7 @@ from PyQt6.QtCore import Qt
 import google.generativeai as genai
 
 # ===== Set your Gemini API Key here =====
-API_KEY = "AIzaSyCiZCg4CKXyqjtS4oaPT1kxcgkTI5caXwM"
+API_KEY = "Put YOUR gemini API key here"
 genai.configure(api_key=API_KEY)
 
 model = genai.GenerativeModel('gemini-2.0-flash')
